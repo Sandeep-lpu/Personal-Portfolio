@@ -120,7 +120,7 @@ export const SkillsInfo = [
     },
   ];
   
-  export const projects = [    
+  export const projects = [
     {
       id: 1,
       title: "Food Smile",
@@ -131,4 +131,224 @@ export const SkillsInfo = [
       github: "https://github.com/Sandeep-lpu/Food-Smile",
       webapp: "https://github.com/Sandeep-lpu/Food-Smile",
     },
-  ];  
+    {
+      id: 2,
+      title: "Hostel Allocation System",
+      description:
+        "A scalable hostel booking and room allocation platform engineered to handle over 50k concurrent users at once with reliable performance and smooth user flows.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/Hostel-Allocation-System",
+      tags: ["TypeScript", "Web App", "Scalable Systems"],
+      github: "https://github.com/Sandeep-lpu/Hostel-Allocation-System",
+      webapp: "https://github.com/Sandeep-lpu/Hostel-Allocation-System",
+    },
+    {
+      id: 3,
+      title: "SchemeMatch",
+      description:
+        "AI-driven government and financial scheme matching platform built to help marginalized entrepreneurs discover and qualify for relevant support programs.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/SchemeMatch",
+      tags: ["TypeScript", "AI", "Web App"],
+      github: "https://github.com/Sandeep-lpu/SchemeMatch",
+      webapp: "https://github.com/Sandeep-lpu/SchemeMatch",
+    },
+    {
+      id: 4,
+      title: "Pulse AI",
+      description:
+        "An AI command center that ingests raw business data — CRM exports, support tickets, and Slack threads — and delivers a prioritized daily briefing with one-click action drafts.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/Pulse-AI",
+      tags: ["JavaScript", "AI", "Analytics"],
+      github: "https://github.com/Sandeep-lpu/Pulse-AI",
+      webapp: "https://github.com/Sandeep-lpu/Pulse-AI",
+    },
+    {
+      id: 5,
+      title: "AI Risk Manager (Fraud Spike Detector)",
+      description:
+        "A real-time fraud detection system built for Razorpay's AI Risk Manager hackathon track, designed to catch anomalous transaction activity before it costs merchants money.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/AI-Risk-Manager-Fraud-Spike-Detector",
+      tags: ["Python", "AI", "Fraud Detection", "Machine Learning"],
+      github: "https://github.com/Sandeep-lpu/AI-Risk-Manager-Fraud-Spike-Detector",
+      webapp: "https://github.com/Sandeep-lpu/AI-Risk-Manager-Fraud-Spike-Detector",
+    },
+    {
+      id: 6,
+      title: "Voice-Enabled RAG Model (HH Goa)",
+      description:
+        "A voice-enabled, ultra-low-latency Retrieval-Augmented Generation (RAG) pipeline featuring orchestration, guardrails, and benchmarking.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/HH-Goa-RAG-Voice-Enabled-RAG-Model",
+      tags: ["Python", "RAG", "Voice AI", "LLM"],
+      github: "https://github.com/Sandeep-lpu/HH-Goa-RAG-Voice-Enabled-RAG-Model",
+      webapp: "https://github.com/Sandeep-lpu/HH-Goa-RAG-Voice-Enabled-RAG-Model",
+    },
+    {
+      id: 7,
+      title: "FaceChain",
+      description:
+        "Real-time face detection pipeline that identifies matching profiles across the web via Google Lens reverse image search and records tamper-proof verification on the Ethereum blockchain.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/FaceChain",
+      tags: ["Python", "Computer Vision", "Ethereum", "Blockchain"],
+      github: "https://github.com/Sandeep-lpu/FaceChain",
+      webapp: "https://github.com/Sandeep-lpu/FaceChain",
+    },
+    {
+      id: 8,
+      title: "Codex Tribunal",
+      description:
+        "Multi-Agent Orchestration Dashboard built with Codex for coordinating, monitoring, and evaluating multiple AI agents.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/-Codex-Tribunal",
+      tags: ["JavaScript", "Multi-Agent", "Dashboard"],
+      github: "https://github.com/Sandeep-lpu/-Codex-Tribunal",
+      webapp: "https://github.com/Sandeep-lpu/-Codex-Tribunal",
+    },
+    {
+      id: 9,
+      title: "TaskPulse",
+      description:
+        "AI-powered productivity companion that proactively assists users in planning, prioritizing, and completing tasks before deadlines are missed.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/TaskPulse",
+      tags: ["TypeScript", "AI", "Productivity"],
+      github: "https://github.com/Sandeep-lpu/TaskPulse",
+      webapp: "https://github.com/Sandeep-lpu/TaskPulse",
+    },
+    {
+      id: 10,
+      title: "Disease Chatbot",
+      description:
+        "AI Medical Assistant capable of understanding human-typed symptoms and parsing uploaded medical lab reports (OCR). Built with FastAPI, React, and Machine Learning for instant disease prediction.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/Disease-Chatbot",
+      tags: ["Python", "FastAPI", "React", "Machine Learning", "OCR"],
+      github: "https://github.com/Sandeep-lpu/Disease-Chatbot",
+      webapp: "https://github.com/Sandeep-lpu/Disease-Chatbot",
+    },
+    {
+      id: 11,
+      title: "HH Goa Frame & ID Card Generator",
+      description:
+        "The official Builder ID Card and 6 artistic PFP frame generator for Hacker House Goa 2026 (AI x Crypto Residency by 2:47PM Studio).",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/HH-Goa-Frame-ID-Card-Generator",
+      tags: ["JavaScript", "Canvas", "Web App"],
+      github: "https://github.com/Sandeep-lpu/HH-Goa-Frame-ID-Card-Generator",
+      webapp: "https://github.com/Sandeep-lpu/HH-Goa-Frame-ID-Card-Generator",
+    },
+    {
+      id: 12,
+      title: "EcoFeast",
+      description:
+        "A smart food recovery platform dedicated to reducing food waste by connecting surplus from restaurants, supermarkets, and bakeries with local charities, consumers, and composters.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/EcoFeast",
+      tags: ["TypeScript", "Sustainability", "Full Stack"],
+      github: "https://github.com/Sandeep-lpu/EcoFeast",
+      webapp: "https://github.com/Sandeep-lpu/EcoFeast",
+    },
+    {
+      id: 13,
+      title: "Hostel Allocation",
+      description:
+        "Web application for managing student hostel room allocation, availability tracking, and booking workflows.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/Hostel-allocation",
+      tags: ["TypeScript", "Web App"],
+      github: "https://github.com/Sandeep-lpu/Hostel-allocation",
+      webapp: "https://github.com/Sandeep-lpu/Hostel-allocation",
+    },
+    {
+      id: 14,
+      title: "Aerogarage",
+      description:
+        "JavaScript web application for Aerogarage, featuring interactive UI components and service management.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/Aerogarage",
+      tags: ["JavaScript", "HTML", "CSS"],
+      github: "https://github.com/Sandeep-lpu/Aerogarage",
+      webapp: "https://github.com/Sandeep-lpu/Aerogarage",
+    },
+    {
+      id: 15,
+      title: "Live News Website",
+      description:
+        "A live news platform with trusted-source labels, fast search, and real-time headline updates.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/Live_news_website",
+      tags: ["JavaScript", "News API", "HTML", "CSS"],
+      github: "https://github.com/Sandeep-lpu/Live_news_website",
+      webapp: "https://github.com/Sandeep-lpu/Live_news_website",
+    },
+    {
+      id: 16,
+      title: "Weather App",
+      description:
+        "A responsive weather forecast web application built with JavaScript to fetch and display real-time weather conditions.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/Weather-App",
+      tags: ["JavaScript", "API", "HTML", "CSS"],
+      github: "https://github.com/Sandeep-lpu/Weather-App",
+      webapp: "https://github.com/Sandeep-lpu/Weather-App",
+    },
+    {
+      id: 17,
+      title: "To-Do Web App",
+      description:
+        "A fun To-Do Web App with animations, dark/light mode, and smooth UI. Add, edit, delete, and manage tasks with date & time in an engaging way.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/To-Do_Web_App",
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Sandeep-lpu/To-Do_Web_App",
+      webapp: "https://github.com/Sandeep-lpu/To-Do_Web_App",
+    },
+    {
+      id: 18,
+      title: "Responsive Landing Page",
+      description:
+        "A responsive landing page with an interactive navigation bar, gradient themes, smooth scrolling, animations, and a mobile-friendly design.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/Responsive_Landing_Page",
+      tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+      github: "https://github.com/Sandeep-lpu/Responsive_Landing_Page",
+      webapp: "https://github.com/Sandeep-lpu/Responsive_Landing_Page",
+    },
+    {
+      id: 19,
+      title: "Tic-Tac-Toe Web App",
+      description:
+        "An interactive Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Play in 2-Player mode or challenge the computer with win/draw detection and a clean, responsive UI.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/Tic-Tac-Toe_Web_App",
+      tags: ["JavaScript", "HTML", "CSS"],
+      github: "https://github.com/Sandeep-lpu/Tic-Tac-Toe_Web_App",
+      webapp: "https://github.com/Sandeep-lpu/Tic-Tac-Toe_Web_App",
+    },
+    {
+      id: 20,
+      title: "Simple Calculator Web App",
+      description:
+        "A simple and responsive Calculator web app built with HTML, CSS, and JavaScript. Perform basic arithmetic operations with a clean UI, click or keyboard input, and reset functionality.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/Simple_Calculator_Web_App",
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Sandeep-lpu/Simple_Calculator_Web_App",
+      webapp: "https://github.com/Sandeep-lpu/Simple_Calculator_Web_App",
+    },
+    {
+      id: 21,
+      title: "Personal Portfolio",
+      description:
+        "A personal portfolio website showcasing my projects, skills, and achievements in computer science and web development with a clean, modern UI.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/Personal-Portfolio",
+      tags: ["React JS", "Tailwind CSS", "Vite", "JavaScript"],
+      github: "https://github.com/Sandeep-lpu/Personal-Portfolio",
+      webapp: "https://github.com/Sandeep-lpu/Personal-Portfolio",
+    },
+    {
+      id: 22,
+      title: "Hackathon Fistx",
+      description:
+        "Hackathon project repository developed during the Fistx hackathon.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/hackathon_fistx",
+      tags: ["Hackathon"],
+      github: "https://github.com/Sandeep-lpu/hackathon_fistx",
+      webapp: "https://github.com/Sandeep-lpu/hackathon_fistx",
+    },
+    {
+      id: 23,
+      title: "Sandeep Demo",
+      description:
+        "My first repository on GitHub exploring HTML basics.",
+      image: "https://opengraph.githubassets.com/1/Sandeep-lpu/Sandeep-demo",
+      tags: ["HTML"],
+      github: "https://github.com/Sandeep-lpu/Sandeep-demo",
+      webapp: "https://github.com/Sandeep-lpu/Sandeep-demo",
+    },
+  ];
